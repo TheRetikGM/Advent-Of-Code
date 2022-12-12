@@ -1,4 +1,5 @@
 # Day 12
+Details can be found [here](https://adventofcode.com/2022/day/12). <br>
 I solved this one using Dijkstra's algorithm.
 
 ## First half
