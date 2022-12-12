@@ -110,6 +110,7 @@ uint32_t get_min_value(const Map& map)
 
             if (current->value + 1 < v->value)
                 v->value = current->value + 1;
+
             if (!v->to_be_processed) {
                 to_process.push_back(v);
                 v->to_be_processed = true;
